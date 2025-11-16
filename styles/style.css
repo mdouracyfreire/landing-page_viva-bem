@@ -15,7 +15,6 @@ header {
   background-image: url(../assets/bannerHeader.png);
   background-repeat: no-repeat;
   background-size: contain;
-  border: 1px solid red;
 }
 header .box-header {
   margin-top: 30px;
@@ -81,4 +80,57 @@ header .box-header nav a {
   border-radius: 10px;
   background-color: transparent;
   color: #1173d4;
+}
+
+main {
+  text-align: center;
+  font-size: 1.25rem;
+}
+main .box-exames {
+  background-color: #f8f9fa;
+  width: 100%;
+  padding-block: 47px 63px;
+}
+main .box-exames .box-descricao {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+main .box-exames .box-descricao h2 {
+  font-size: 2.7rem;
+  background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 26px;
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.box-prevencoes {
+  max-width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.box-prevencoes article {
+  margin-top: 41px;
+  padding: 11px 14px 18px;
+  flex: 1 0 250px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.box-prevencoes span {
+  display: block;
+  font-weight: 600;
+  margin-block: 27px 18px;
+}
+.box-prevencoes p {
+  font-size: 1.125rem;
 }/*# sourceMappingURL=style.css.map */
