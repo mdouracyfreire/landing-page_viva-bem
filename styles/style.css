@@ -12,7 +12,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url(../assets/bannerHeader.png);
+  background-image: url(../assets/images/bannerHeader.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -133,4 +133,46 @@ img {
 }
 .box-prevencoes p {
   font-size: 1.125rem;
+}
+
+.box-prevencao-feminina {
+  padding-block: 50px 70px;
+  background-color: #fdefef;
+}
+.box-prevencao-feminina h2 {
+  font-size: 2.7rem;
+  background: linear-gradient(to right, #f9016f 0%, #930885 42%, #d038aa 70%, #851c87 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 54px;
+}
+.box-prevencao-feminina .box-exames-femininos {
+  max-width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 42px;
+}
+.box-prevencao-feminina article {
+  flex: 1 0 240px;
+  height: 400px;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.box-prevencao-feminina article span {
+  display: block;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 45px;
+}
+.box-prevencao-feminina article li {
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 20px;
+  margin: 0 8px 6px 8px;
 }/*# sourceMappingURL=style.css.map */
