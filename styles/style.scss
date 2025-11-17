@@ -180,8 +180,9 @@ img {
   }
 }
 
-.box-prevencao-feminina, .box-prevencao-masculina{
-  padding-block: 50px 60px;
+.box-prevencao-feminina,
+.box-prevencao-masculina {
+  padding-block: 40px 60px;
 
   h2 {
     font-size: 2.7rem;
@@ -192,9 +193,10 @@ img {
     margin-bottom: 54px;
   }
 
-  .box-exames-femininos, .box-exames-masculino {
+  .box-exames-femininos,
+  .box-exames-masculino {
     max-width: 80vw;
-    margin: 0 auto;
+    margin-inline: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -222,6 +224,69 @@ img {
       font-size: 0.875rem;
       line-height: 20px;
       margin: 0 8px 6px 8px;
+    }
+  }
+}
+
+.box-alertas-importantes {
+  max-width: 80vw;
+  margin-inline: auto;
+  padding-block: 40px 60px;
+
+  h2 {
+    font-size: 2.7rem;
+    background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 54px;
+  }
+
+  .titulo-alerta {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 6px;
+
+    h3 {
+      font-size: 1.25rem;
+      line-height: 45px;
+    }
+  }
+}
+
+.box-alertas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  gap: 25px;
+
+  article {
+    flex: 0 0 420px;
+    padding: 10px 16px 20px;
+    border-radius: 10px;
+
+    &:nth-of-type(1) {
+      background-color: #f9d5e5;
+      color: #ad346a;
+    }
+
+    &:nth-of-type(2) {
+      background-color: #cfe2f3;
+      color: #2769a3;
+    }
+
+    &:nth-of-type(3) {
+      background-color: #d4edda;
+      color: #244a2d;
+    }
+
+    &:nth-of-type(4) {
+      background-color: #ffe9c2;
+      color: #976c00;
     }
   }
 }
