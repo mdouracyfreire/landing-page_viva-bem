@@ -112,16 +112,17 @@ img {
 }
 
 .box-prevencoes {
-  max-width: 70vw;
+  max-width: 80vw;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 60px;
 }
 .box-prevencoes article {
   margin-top: 41px;
   padding: 11px 14px 18px;
-  flex: 1 0 250px;
+  flex: 0 0 280px;
   background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -136,41 +137,54 @@ img {
 }
 
 .box-prevencao-feminina {
-  padding-block: 50px 70px;
   background-color: #fdefef;
 }
 .box-prevencao-feminina h2 {
-  font-size: 2.7rem;
   background: linear-gradient(to right, #f9016f 0%, #930885 42%, #d038aa 70%, #851c87 100%);
+}
+
+.box-prevencao-masculina {
+  background-color: #f8f9fa;
+}
+.box-prevencao-masculina h2 {
+  background: linear-gradient(to right, #3373d2 16%, #6f95c7 33%, #7bb5f5 55%, #0074ee 69%, #5ea7ef 87%);
+}
+
+.box-prevencao-feminina, .box-prevencao-masculina {
+  padding-block: 50px 60px;
+}
+.box-prevencao-feminina h2, .box-prevencao-masculina h2 {
+  font-size: 2.7rem;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
   margin-bottom: 54px;
 }
-.box-prevencao-feminina .box-exames-femininos {
-  max-width: 70vw;
+.box-prevencao-feminina .box-exames-femininos, .box-prevencao-feminina .box-exames-masculino, .box-prevencao-masculina .box-exames-femininos, .box-prevencao-masculina .box-exames-masculino {
+  max-width: 80vw;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 42px;
 }
-.box-prevencao-feminina article {
-  flex: 1 0 240px;
+.box-prevencao-feminina article, .box-prevencao-masculina article {
+  flex: 0 0 280px;
   height: 400px;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
-  padding: 18px;
+  padding: 16px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
-.box-prevencao-feminina article span {
+.box-prevencao-feminina article span, .box-prevencao-masculina article span {
   display: block;
   font-weight: bold;
   font-size: 1.25rem;
   line-height: 45px;
 }
-.box-prevencao-feminina article li {
+.box-prevencao-feminina article li, .box-prevencao-masculina article li {
   text-align: left;
   font-size: 0.875rem;
   line-height: 20px;

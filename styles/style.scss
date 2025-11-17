@@ -124,16 +124,17 @@ img {
 }
 
 .box-prevencoes {
-  max-width: 70vw;
+  max-width: 80vw;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 60px;
 
   article {
     margin-top: 41px;
     padding: 11px 14px 18px;
-    flex: 1 0 250px;
+    flex: 0 0 280px;
     background-color: #ffffff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -151,12 +152,39 @@ img {
 }
 
 .box-prevencao-feminina {
-  padding-block: 50px 70px;
   background-color: #fdefef;
 
   h2 {
+    background: linear-gradient(
+      to right,
+      #f9016f 0%,
+      #930885 42%,
+      #d038aa 70%,
+      #851c87 100%
+    );
+  }
+}
+
+.box-prevencao-masculina {
+  background-color: #f8f9fa;
+
+  h2 {
+    background: linear-gradient(
+      to right,
+      #3373d2 16%,
+      #6f95c7 33%,
+      #7bb5f5 55%,
+      #0074ee 69%,
+      #5ea7ef 87%
+    );
+  }
+}
+
+.box-prevencao-feminina, .box-prevencao-masculina{
+  padding-block: 50px 60px;
+
+  h2 {
     font-size: 2.7rem;
-    background: linear-gradient(to right, #f9016f 0%, #930885 42%, #d038aa 70%, #851c87 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -164,20 +192,21 @@ img {
     margin-bottom: 54px;
   }
 
-  .box-exames-femininos {
-    max-width: 70vw;
+  .box-exames-femininos, .box-exames-masculino {
+    max-width: 80vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 42px;
   }
 
   article {
-    flex: 1 0 240px;
+    flex: 0 0 280px;
     height: 400px;
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
-    padding: 18px;
+    padding: 16px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 
