@@ -1,4 +1,3 @@
-
 # 🌿 Landing Page - Viva Bem
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white)
@@ -112,22 +111,21 @@ O layout foi planejado para ser responsivo, com ajustes para diferentes resoluç
 
 ## 🧰 Como Executar Localmente
 
-#### 🔹 1. Clonar o repositório
+**🔹 1. Clonar o repositório**
 ```bash
-git clone https://github.com/mdouracyfreire/landing-page-viva-bem.git
+git clone https://github.com/mdouracyfreire/landing-page_viva-bem.git
 ```
-#### 🔹 2. Entrar na pasta do projeto
+**🔹 2. Entrar na pasta do projeto**
 ```bash
-cd landing-page-viva-bem
+cd landing-page_viva-bem
 ```
-#### 🔹 3. Abra o arquivo index.html diretamente no navegador ou utilize a extensão Live Server do VS Code.
+**🔹 3. Abra o arquivo index.html diretamente no navegador ou utilize a extensão Live Server do VS Code**
 
 ---
 
 ## 🏁 Licença
 
-Este projeto é de uso educacional e foi desenvolvido como parte do programa de formação **VaiNaWeb Fullstack**.  
-Sinta-se à vontade para estudar, aprimorar e reutilizar o código para fins de aprendizado.
+Este projeto é de uso educacional e foi desenvolvido como parte do programa de formação **VaiNaWeb Fullstack**. Sinta-se à vontade para estudar, aprimorar e reutilizar o código para fins de aprendizado.
 
 ---
 
@@ -135,7 +133,7 @@ Sinta-se à vontade para estudar, aprimorar e reutilizar o código para fins de 
 <div align="center">
   <p>Desenvolvido com 💛 por <strong>Douracy Freire</strong></p>
 
-  <a href="https://github.com/douracyfreire">
+  <a href="https://github.com/mdouracyfreire">
     <img src="https://img.shields.io/badge/GitHub-Douracy%20Freire-181717?logo=github" alt="GitHub Badge"/>
   </a>
   <a href="https://www.linkedin.com/in/douracy/">
