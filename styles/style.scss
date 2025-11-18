@@ -395,7 +395,12 @@ img {
 
     .box-alertas {
       article {
-        flex-basis: 350px;
+        flex-shrink: 1;
+      }
+
+      h3 {
+        text-align: left;
+        line-height: 26px;
       }
     }
   }
